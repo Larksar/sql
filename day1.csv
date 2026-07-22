@@ -1,2 +1,7 @@
 day3
 not working?
+
+FOREIGN KEY (t_owner) REFERENCES people (p_id)
+
+    FOREIGN KEY (o_owner) REFERENCES people (p_id),
+    FOREIGN KEY (o_thing) REFERENCES things (t_id)
