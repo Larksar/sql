@@ -13,3 +13,5 @@ class sql:
         return f"{self.employee_id}'s hourly pay is {self.hourly_pay}"
 
 
+    def describe(self):
+        return self.get_info
