@@ -15,3 +15,6 @@ class sql:
 
     def describe(self):
         return self.get_info
+
+    def day8(self):
+        return f"hi"
