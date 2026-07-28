@@ -18,3 +18,6 @@ class sql:
 
     def day8(self):
         return f"hi"
+
+    def day9(self):
+        pass
