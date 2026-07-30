@@ -21,3 +21,6 @@ class sql:
 
     def day9(self):
         pass
+
+    def day10(self):
+        pass

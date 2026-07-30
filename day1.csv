@@ -8,3 +8,5 @@ FOREIGN KEY (t_owner) REFERENCES people (p_id)
 
     testing this 
     git poush this
+
+    day10
