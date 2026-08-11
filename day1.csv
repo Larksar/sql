@@ -23,3 +23,10 @@ FOREIGN KEY (t_owner) REFERENCES people (p_id)
     
     FOREIG
     N KEY (o_thing) REFERENCES things (t_id)d
+
+        N KEY (o_thing) REFERENCES things (t_id)
+
+    
+    FOREIGN KEY (o_owner) REFERENCES people (p_id),
+    
+    FOREIG
