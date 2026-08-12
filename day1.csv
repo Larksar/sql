@@ -18,7 +18,10 @@ FOREIGN KEY (t_owner) REFERENCES people (p_id)
     FOREIG
     N KEY (o_thing) REFERENCES things (t_id)
 
+        N KEY (o_thing) REFERENCES things (t_id)
+
     
+    FOREIGN KEY (o_owner) REFERENCES people (p_id),
     FOREIGN KEY (o_owner) REFERENCES people (p_id),
     
     FOREIG
