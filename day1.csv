@@ -33,3 +33,8 @@ FOREIGN KEY (t_owner) REFERENCES people (p_id)
     FOREIGN KEY (o_owner) REFERENCES people (p_id),
     
     FOREIG
+    
+    
+    FOREIGN KEY (o_owner) REFERENCES people (p_id),
+    
+    FOREIG

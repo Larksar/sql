@@ -48,4 +48,7 @@ class sql:
         
     def describe(self):
         return self.get_info
+         
+    def describe(self):
+        return self.get_info
 
